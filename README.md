@@ -14,6 +14,16 @@ If you have a feature request or bug to report I would love to hear about it eit
 or by filing an issue here on Github.
 
 ***
+# Installation
+
+At the top right of this Github page are the **Releases**.
+
+ * Download the zip of the latest version.
+ * Extract to any folder on your computer; this does not (and should not) go into the folder as the game.
+ * Simply run the executable.
+
+Note: For each release there will be a SHA256 of the archive.   
+
 # Usage
 
 **Make backups before using this editor**!
@@ -35,7 +45,10 @@ If you click on another save file, *any changes you made to the current file be 
 
 On the Story tab you can make changes to the "data" element of the STORY object in the save file. At the time of this
 writing this is generally found around line 11. Marine maintains a number of sub-properties here to keep track of various
-states within the game's story. The naming and meaning is heavily subject to change, so it's best to check the discord.
+states within the game's story.
+
+While every effort is made to ensure compatibility is maintained between releases as the game develops, changes that
+might conflict with save files of an older build will occur only when it is absolutely necessary. 
 
 ***
 
